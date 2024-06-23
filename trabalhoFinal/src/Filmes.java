@@ -3,7 +3,10 @@ public class Filmes {
     private String Diretor;
     private String Categoria;
     private int ano;
-    
+ 
+    public Filmes() {
+    }
+
     public Filmes(String titulo, String diretor, String catagoria, int ano) {
         this.titulo = titulo;
         Diretor = diretor;
@@ -48,4 +51,5 @@ public class Filmes {
         return "\nnome do filme: " + titulo + "\nnome do diretor" + Diretor + 
         "\ncategoria" + Categoria + "\nano do filme" + ano;
     }
+    
 }
