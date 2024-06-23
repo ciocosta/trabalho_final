@@ -21,6 +21,9 @@ public class Series extends Filmes {
 
     @Override
     public String toString() {
-        return super.toString() + "quantidade de temporadas: " + temporadas;
+        return super.toString();
+    }
+    public String ExibirDadosSeries() {
+        return "quantidade de temporadas: " + temporadas;
     }
 }

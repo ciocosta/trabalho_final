@@ -33,7 +33,7 @@ public class CatalogoDeFilmes {
         
     }
 
-    public static void removerFilme(Filme filme) {
+    public static void removerFilme(Filmes filme) {
 
         listaFilmes.remove(filme);
     }

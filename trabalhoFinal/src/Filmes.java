@@ -46,10 +46,9 @@ public class Filmes {
         this.ano = ano;
     }
 
-    @Override
-    public String toString() {
-        return "\nnome do filme: " + titulo + "\nnome do diretor" + Diretor + 
-        "\ncategoria" + Categoria + "\nano do filme" + ano;
+    public String ExibirDadosFilme() {
+        return "\nnome do filme: " + titulo + "\nnome do diretor: " + Diretor + 
+        "\ncategoria: " + Categoria + "\nano do filme: " + ano;
     }
     
 }
