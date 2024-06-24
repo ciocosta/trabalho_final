@@ -4,7 +4,7 @@ import java.util.List;
 
 import model.Series;
 
-public class CatalogoDeSeries {
+public abstract class CatalogoDeSeries {
     
     private static List<Series> listaSeries = new ArrayList<>();
 

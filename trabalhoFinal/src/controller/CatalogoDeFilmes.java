@@ -4,7 +4,7 @@ import java.util.List;
 
 import model.Filmes;
 
-public class CatalogoDeFilmes {
+public abstract class CatalogoDeFilmes {
 
     private static List<Filmes> listaFilmes = new ArrayList<>();
 
