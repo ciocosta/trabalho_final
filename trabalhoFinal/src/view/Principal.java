@@ -37,10 +37,10 @@ public class Principal {
         String titulo = Console.lerString("Titulo: ");
         String Diretor = Console.lerString("Diretor: ");
         String Categoria = Console.lerString("Categoria: ");
-        int temporadas = Console.lerInt("Temporadas: ");
         int ano = Console.lerInt("ano: ");
+        int temporadas = Console.lerInt("Temporadas: ");
 
-        Series NovaSerie = new Series(titulo, Diretor, Categoria, temporadas, ano);
+        Series NovaSerie = new Series(titulo, Diretor, Categoria, ano, temporadas);
         CatalogoDeSeries.adicionarSerie(NovaSerie);
         System.out.println("\nSerie cadastrada com sucesso");
     }
@@ -166,10 +166,11 @@ public class Principal {
                 break;
             case 0:
                 System.out.println("\nsistema finalizado");
+                System.exit(0);
                 break;
 
             default: 
-                System.out.println("\nopcao invalida, tente novamente.");
+                System.out.println("\nopcao invalida, tente novamente: ");
                 break;
         }
 

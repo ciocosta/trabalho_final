@@ -1,7 +1,7 @@
 package model;
 public class Series extends Filmes {
 
-    private int temporadas;
+    protected int temporadas;
 
     public Series(int temporadas) {
         this.temporadas = temporadas;
@@ -20,11 +20,9 @@ public class Series extends Filmes {
         this.temporadas = temporadas;
     }
 
-    @Override
-    public String toString() {
-        return super.toString();
-    }
     public String ExibirDadosSeries() {
-        return "quantidade de temporadas: " + temporadas;
+        return  "\nnome do filme: " + titulo + "\nnome do diretor: " + Diretor + 
+        "\ncategoria: " + Categoria + "\nano de lancamento: " + ano + 
+        "\nquantidade de temporadas: " + temporadas;
     }
 }

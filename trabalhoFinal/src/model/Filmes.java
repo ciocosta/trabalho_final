@@ -1,9 +1,9 @@
 package model;
 public class Filmes {
-    private String titulo;
-    private String Diretor;
-    private String Categoria;
-    private int ano;
+    protected String titulo;
+    protected String Diretor;
+    protected String Categoria;
+    protected int ano;
  
     public Filmes() {
     }
