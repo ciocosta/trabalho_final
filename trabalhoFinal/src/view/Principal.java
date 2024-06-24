@@ -1,3 +1,9 @@
+package view;
+import controller.CatalogoDeFilmes;
+import controller.CatalogoDeSeries;
+import model.Filmes;
+import model.Series;
+
 public class Principal {
 
     public static void menu(){

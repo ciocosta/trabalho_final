@@ -1,3 +1,4 @@
+package model;
 public class Series extends Filmes {
 
     private int temporadas;

@@ -1,3 +1,4 @@
+package model;
 public class Filmes {
     private String titulo;
     private String Diretor;
